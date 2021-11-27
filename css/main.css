@@ -34,7 +34,7 @@
 }
 
 /* OUR FEATURES */
-.section {
+.main-section {
   color: var(--primary-text-color);
 }
 
@@ -65,7 +65,7 @@
 }
 
 /* OUR TEAM */
-.section.team {
+.main-section.team {
   background-color: var(--filter-color);
 }
 
@@ -77,8 +77,9 @@
   cursor: pointer;
 }
 
-.filter > .accent:hover,
-.filter > .accent:focus {
+.filter > .buttons:hover,
+.filter > .buttons:focus,
+.filter > .accent {
   background-color: var(--accent-color);
   color: var(--hero-text-color);
 }
