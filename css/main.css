@@ -26,6 +26,7 @@
   background-color: var(--accent-color);
   color: var(--hero-text-color);
   cursor: pointer;
+  font-family: inherit;
 
   font-weight: 700;
   font-size: 16px;
@@ -75,6 +76,7 @@
   background-color: var(--filter-color);
   color: var(--secondary-text-color);
   cursor: pointer;
+  font-family: inherit;
 }
 
 .filter > .buttons:hover,
